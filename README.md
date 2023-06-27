@@ -1,16 +1,3 @@
-# share_near_v2
+# Share Near 
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ShareNear is an application intended for the online sharing of stuff. The main objective of this application is to make the sharing culture interactive and easy to use. It would make searching, viewing, and selecting a product to lend and borrow in an effortless manner. It ensures a sophisticated and secure medium for the user's to search for products specific to their needs. The app provides an easy and convenient way to select products where a user can search for a product nearby his/her locality and the app would suggest the stuff available based on the user’s demand. The user can then view the complete specification and related terms and conditions of every relevant product. They can view the Lender/Borrower’s profile and product reviews and write their own reviews. The main emphasis lies in providing a user-friendly sharing culture among the community. Team ShareNear believes that sharing is caring. So the motto is - Share Things, Share Happiness
