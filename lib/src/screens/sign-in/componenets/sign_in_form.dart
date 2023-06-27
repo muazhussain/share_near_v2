@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../../../components/app_text_form_field.dart';
 import '../../../components/default_button.dart';
 import '../../../components/no_account_text.dart';
@@ -23,27 +22,21 @@ class _SignInFormState extends State<SignInForm> {
       key: _formkey,
       child: Column(
         children: [
-          SizedBox(
-            height: getProportionateScreenHeight(20),
-          ),
+          SizedBox(height: SizeConfig.screenHeight * 0.04),
           const AppTextFormField(
             label: 'Email',
             hintText: 'Enter your email',
             textInputType: TextInputType.emailAddress,
             svgIcon: 'assets/icons/Mail.svg',
           ),
-          SizedBox(
-            height: getProportionateScreenHeight(20),
-          ),
+          SizedBox(height: SizeConfig.screenHeight * 0.04),
           const AppTextFormField(
             label: 'Password',
             hintText: 'Enter your password',
             obscure: true,
             svgIcon: 'assets/icons/Lock.svg',
           ),
-          SizedBox(
-            height: getProportionateScreenHeight(20),
-          ),
+          SizedBox(height: SizeConfig.screenHeight * 0.04),
           Row(
             children: [
               Checkbox(
@@ -65,13 +58,8 @@ class _SignInFormState extends State<SignInForm> {
               ),
             ],
           ),
-          SizedBox(
-            height: getProportionateScreenHeight(20),
-          ),
+          SizedBox(height: SizeConfig.screenHeight * 0.04),
           DefaultButton(text: 'Continue', press: () {}),
-          SizedBox(
-            height: getProportionateScreenHeight(20),
-          ),
           SizedBox(height: SizeConfig.screenHeight * 0.08),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -90,9 +78,7 @@ class _SignInFormState extends State<SignInForm> {
               ),
             ],
           ),
-          SizedBox(
-            height: getProportionateScreenHeight(20),
-          ),
+          SizedBox(height: SizeConfig.screenHeight * 0.04),
           const NoAccountText(),
         ],
       ),

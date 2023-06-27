@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'src/screens/sign-in/sing_in_screen.dart';
+import 'package:share_near_v2/src/screens/forget-password/forget_password_screen.dart';
 import 'src/theme.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class ShareNearApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme(),
-      home: const SignInScreen(),
+      home: const ForgetPassword(),
     );
   }
 }
