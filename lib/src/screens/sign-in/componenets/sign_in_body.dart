@@ -12,7 +12,8 @@ class SignInBody extends StatelessWidget {
       width: double.infinity,
       child: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding:
+              EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
           child: Column(
             children: [
               Text(

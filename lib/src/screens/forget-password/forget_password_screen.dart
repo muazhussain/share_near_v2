@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:share_near_v2/src/components/app_text_form_field.dart';
-import 'package:share_near_v2/src/components/default_button.dart';
-
+import '../../components/app_text_form_field.dart';
+import '../../components/default_button.dart';
 import '../../components/no_account_text.dart';
 import '../../size_config.dart';
 

@@ -15,11 +15,11 @@ class SplashBody extends StatefulWidget {
 class _SplashBodyState extends State<SplashBody> {
   List<Map<String, String>> splashData = [
     {
-      'text': 'Share Things Share Happiness',
+      'text': 'Discover, connect, and share with ShareNear',
       'imagePath': 'assets/images/splash_1.png'
     },
     {
-      'text': 'Share Things Share Happiness',
+      'text': 'Unlock a world of convenience and community',
       'imagePath': 'assets/images/splash_2.png'
     },
     {
