@@ -15,7 +15,6 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
         elevation: 0,
         leading: InkWell(
           borderRadius: BorderRadius.circular(40),

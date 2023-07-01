@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:share_near_v2/src/screens/product-details/product_details_screen.dart';
+import 'package:share_near_v2/src/screens/user-profile/user_profile_screen.dart';
+import 'src/size_config.dart';
 import 'src/theme.dart';
 
 void main() {
@@ -12,10 +13,11 @@ class ShareNearApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SizeConfig().init(context);
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       theme: theme(),
-      home: const ProductDetailsScreen(),
+      home: const UserProfileScreen(),
     );
   }
 }
