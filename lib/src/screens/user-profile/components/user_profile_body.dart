@@ -27,6 +27,7 @@ class UserProfileBody extends StatelessWidget {
             leading: SvgPicture.asset(
               'assets/icons/User Icon.svg',
               width: 22,
+              // ignore: deprecated_member_use
               color: primaryColor,
             ),
             title: Text(
